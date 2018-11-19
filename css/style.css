@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+   /* margin: 0;
+    padding: 0; */
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.headerBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 15px;
+}
+
+.logo{
+    width: 230px;
+}
+
+li.headerMenu_item {
+    display: inline-block;
+}
+
+li.headerMenu_item a {
+    padding: 12px 15px 12px 15px;
+    color: #373737;
+    text-decoration: none;
+}
+
+li.headerMenu_item a:hover {
+    background: #373737;
+    color: white;
+}
+
+li.headerMenu_item-active a {
+    background: #373737;
+    color: white;
+}
+
+.bannerBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerText {
+    width: 300px;
+    padding: 0 20px 0 20px;
+}
+
+.bannerText_FirstLine {
+    font-size: 50px;
+    color: #5d5d5d;
+    padding-bottom: 5px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.bannerText_SecondLine {
+    font-size: 35px;
+    color: #5d5d5d;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.iconCamBanner_item {
+    width: 23px;
+    padding-right: 10px;
+}
+
+.bannerButton_item {
+    display: inline-block;
+    background: #373737;
+    padding: 10px 25px 10px 15px;
+}
+
+.bannerButton_item:hover {
+    background: #707070;
+}
+
+.bannerButton_item a {
+    text-decoration: none;
+    color: white;
+}
+
+.bannerImage {
+    max-width: 810px;
+    padding: 30px 10px;
+}
+
+main {
+    align-items: flex-start;
+    display: flex;
+}
+
+.mainContent {
+    width: 70%;
+    padding-right: 25px;
+}
+
+.mainArticle h2 {
+    margin-bottom: 15px;
+}
+
+.mainArticle p {
+    margin-bottom: 7px;
+}
+
+.mainArticle_img {
+    width: 300px;
+    min-width: 300px;
+    margin-right: 25px;
+}
+
+.mainArticle {
+    display: flex;
+}
+
+.mainArticleContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.mainArticleContent h2 {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight:normal;
+    color: #696161;
+}
+
+.mainArticleContent p {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #848484;
+}
+
+.sliderManager {
+    display: flex;
+    margin-left: auto;
+}
+
+.sliderManager_arrowRight {
+    width: 10px;
+    padding: 8px 12px;
+    background: darkgray;
+    order: 2;
+}
+
+.sliderManager_arrowLeft {
+    width: 10px;
+    padding: 8px 12px;
+    background: #888888;
+    order: 1;
+}
+
+.articlesBlock_firstLine {
+    display: flex;
+}
+
+.articlesBlock_secondLine {
+    display: flex;
+}
+
+.articlesBlock_thirdLine {
+    display: flex;
+}
+
+.articlesBlock_post {
+    min-width: 32%;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.articlesBlock_post h3 {
+    margin-bottom: 15px;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    font-weight:normal;
+    color: #696161;
+}
+
+.articlesBlock_post p {
+    margin-bottom: 20px;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #848484;
+    text-align: justify;
+}
+
+.sideBar {
+    width: 30%;
+}
+
+.sideBar img {
+    margin-bottom: 25px;
+}
+
+.footer {
+    height: 85px;
+    background: #393a39;
+    margin-top: 25px;
+}
+
+.footerText {
+    display: inline-block;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.footerText p {
+
+}
+
+.footerIcons {
+    display: inline-block;
+}
+
+.footerIcons img {
+    width: 30px;
+}
